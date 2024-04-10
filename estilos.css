@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fondo{
+    background-color: burlywood;
+}
+
+.hero{
+   background-image: linear-gradient(rgba(200, 60, 50, 0.5), rgba(20, 80, 50, 0.8)), url("img/fondo\ 1.jpeg");
+   height: 650px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+  /* position: relative; */
+   overflow: hidden;
+}
+
+.texto-hero{
+    color:white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-70{
+    font-size: 70px;
+    text-shadow: 0 0 5px black;
+}
+
+.texto-50{
+    font-size: 50px;
+}
+
+
+.info{
+    background-color: rgba(141, 71, 6, 0.685);
+    color:  aquamarine;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.titulo-info{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 10px;
+    background-color: rgba(228, 223, 223, 0.171);
+}
+
+.card:hover{
+    box-shadow: 0 0 10px 0 black;
+    transform: scale(1.1);
+    transition: transform 0.6s;
+}
+
+.card i{
+    color: blue;
+    font-size: 50px;
+}
+
+.card h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.boton{
+    background: transparent;
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    padding: 20px 10px;
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+
+.contenedor-imagen{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.contenedor-imagen img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 35px;
+    display: block;
+    box-shadow: 0 0 10px 0 black;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.galeria{
+    background-color: rgba(226, 233, 240, 0.733);
+}
+
+.margen-icon{
+    margin-top: 25px;
+}
+
+
+
+.contacto{
+    background-color: rgba(141, 71, 6, 0.685);
+    color: #ffff;
+    text-shadow: 0 0 10px black;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.input{
+    background: transparent;
+    border:0;
+    color:gray;
+    outline: none;
+    border: 1px solid coral;
+    font-size: 25px;
+}
+
+.input::placeholder{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.input-ancho{
+    width: 49%;
+    margin-bottom: 30px;
+    display: inline-block;
+    height: 40px;
+}
+
+.textarea-ancho{
+    width: 99%;
+    margin-bottom: 15px;
+}
+.nav{
+    list-style-type: none;
+    background-color:black;
+    width: 100%;
+    position: fixed;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 16px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.pie{
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0;
+}
